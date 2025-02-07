@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.hero{
+    background-image: url('D:\Full-Stack-Development\React\React_Projects\FinalTermProject\src\assets\images\BgImage.png');
+}
+.logo img{
+    background-color: rgb(212, 145, 23);
+}
+.active{
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+}
